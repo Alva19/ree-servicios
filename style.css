@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --yellow: #FFD700;
+    --warm-black: #1e1e1e;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 100%;
+    min-width: 320px;
+    height: 116px;
+}
+.header-imgs-container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 600px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.logo-ree {
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.whatsapp-logo {
+    display: block;
+    position:relative;
+    top: 40px;
+    left: 20px;
+    height: 33px;
+    width: 33px;
+    background-image: url('./recursos/iconos/Whatsapp.svg');
+}
+.facebook-logo {
+    height: 33px;
+    width: 33px;
+    display: block;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    background-image: url('./recursos/iconos/Facebook.svg');
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+.menu-container p{
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.header-container {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(408.8deg, #007fff 16.69%, #C0C0C0 100%)
+}
+.header-img-background-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.header-container h1{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+.header-container b{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.number-header {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.eslogan {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: white;
+}
+
+.header-container button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    left: calc(50% - 75px);
+    padding: 0 10px;
+    top: 30px;
+    border-radius: 8px;
+    border: none;
+    color: var(--warm-black);
+    background-color: var(--yellow);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.header-container button span {
+    display: block;
+    margin-left: 17px;
+    width: 24px;
+    height: 19px;
+    background-image: url('./recursos/iconos/right-arrow.svg');
+}
