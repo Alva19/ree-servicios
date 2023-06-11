@@ -6,6 +6,9 @@
 :root {
     --yellow: #FFD700;
     --warm-black: #1e1e1e;
+    --orange: #ff8a00;
+    --electric-blue: #011045;
+    --just-white: #faf8f7;
 }
 html{
     font-size: 62.5%;
