@@ -73,7 +73,7 @@ header{
     font-weight: bold;
     color: white;
 }
-.header-container b{
+.header-container h1 p{
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
