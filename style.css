@@ -12,12 +12,13 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
+    background-color: var(--just-white);
 }
 header{
     width: 100%;
     min-width: 320px;
     height: 116px;
+    background-color: white; 
 }
 .header-imgs-container {
     width: 100%;
@@ -53,6 +54,7 @@ header{
 .menu-container {
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 .menu-container p{
     margin: 0 5px;
@@ -62,6 +64,7 @@ header{
 .header-container {
     width: 100%;
     height: 300px;
+    font-family: 'Open Sans', sans-serif;
     background: linear-gradient(408.8deg, #007fff 16.69%, #C0C0C0 100%)
 }
 .header-img-background-container {
@@ -83,6 +86,14 @@ header{
     color: var(--yellow);
 }
 
+.header-title--container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+}
 .number-header {
     margin-top: 10px;
     text-align: center;
@@ -99,7 +110,8 @@ header{
     color: white;
 }
 
-.header-container button {
+.header-container .header-title--container button {
+    z-index: 1;
     display: flex;
     align-items: center;
     position: relative;
@@ -122,4 +134,163 @@ header{
     width: 24px;
     height: 19px;
     background-image: url('./recursos/iconos/right-arrow.svg');
+}
+.products-tipes--container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.products-tipe-refrigeration--container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 230px;
+    background-color: var(--just-white);
+}
+
+.products-tipe-refrigeration--container .refrigeration-logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    background-image: url('./recursos/iconos/Air-Conditioner.svg');
+}
+.products-tipe-refrigeration--container h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--warm-black);
+}
+.products-tipe-refrigeration--container button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    position: relative;
+    top: 10px;
+    padding-top: 6px;
+    border: 3px solid black;
+    background-color: transparent;
+}
+.products-tipe-refrigeration--container button span {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    background-image: url('./recursos/iconos/ArrowUpShort-refrigeration.svg');
+}
+
+.products-tipe-electricity--container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 230px;
+    background-color: var(--orange);
+}
+
+.products-tipe-electricity--container .electricity-logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    background-image: url('./recursos/iconos/Light.svg');
+}
+.products-tipe-electricity--container h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.products-tipe-electricity--container button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    position: relative;
+    top: 10px;
+    color: white;
+    border: 3px solid white;
+    padding-top: 6px;
+    background-color: transparent;
+}
+
+.products-tipe-electricity--container button span {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    background-image: url('./recursos/iconos/ArrowUpShort-electricity.svg');
+}
+
+.products-tipe-electronic--container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 230px;
+    background-color: var(--warm-black);
+}
+
+.products-tipe-electronic--container .electronic-logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    background-image: url('./recursos/iconos/computer.svg');
+}
+.products-tipe-electronic--container h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--orange);
+}
+
+.products-tipe-electronic--container button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    position: relative;
+    top: 10px;
+    color: var(--orange);
+    border: 3px solid var(--orange);
+    padding-top: 6px;
+    background-color: transparent;
+}
+
+.products-tipe-electronic--container button span {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    background-image: url('./recursos/iconos/ArrowUpShort-electronic.svg');
 }
