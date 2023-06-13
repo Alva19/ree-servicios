@@ -294,3 +294,53 @@ header{
     height: 30px;
     background-image: url('./recursos/iconos/ArrowUpShort-electronic.svg');
 }
+
+.main-benefits--container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--electric-blue);
+}
+
+.benefits-title--container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.benefits-title--container  h2 {
+    margin-top: 50px;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+    font-weight: bold;
+    color: white;
+}
+.benefits-title--container p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+.benefits-cards-container {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.benefits-card {
+    width: 270px;
+    height: 125px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    background-color: var(--warm-black);
+}
