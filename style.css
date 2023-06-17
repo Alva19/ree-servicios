@@ -456,3 +456,104 @@ header{
     position: relative;
     bottom: 10px;
 }
+.main-services--container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--just-white);
+}
+
+.main-services--container h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.services-scroll--container {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+}
+
+.service-card {
+    width: 65%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 190px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.air-conditiner-service-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.air-conditiner-service-container span {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 120px;
+    position: relative;
+    bottom: 25px;
+    background-image:url('./recursos/iconos/Reparacion_aire_acondicionado_.svg');
+}
+
+.air-conditiner-service-container p{
+    position: relative;
+    bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.dampers-service--container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dampers-service--container span {
+    display: block;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 118px;
+    background-image:url('./recursos/iconos/Cambio-apagadores.svg');
+}
+
+.dampers-service--container p{
+    position: relative;
+    bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.fridge-service--container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fridge-service--container span {
+    display: block;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left: 30px;
+    width: 60%;
+    height: 130px;
+    background-image:url('./recursos/iconos/Reparacion-refrigeradores.svg');
+}
+
+.fridge-service--container p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
