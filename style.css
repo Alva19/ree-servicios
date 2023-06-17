@@ -91,7 +91,6 @@ header{
     min-width: 288px;
     max-width: 900px;
     text-align: center;
-    align-self: center;
     margin: 0 auto;
 }
 .number-header {
@@ -335,6 +334,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    color: white;
 }
 
 .benefits-card {
@@ -343,4 +343,116 @@ header{
     border-radius: 10px;
     margin: 20px 20px;
     background-color: var(--warm-black);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.money-benefit-card--container {
+}
+
+.money-benefit-card--container span {
+    display: block;
+    width: 20px;
+    height: 30px;
+    background-image: url('./recursos/iconos/CurrencyDollar.svg');
+    margin: 10px;
+}
+
+.money-benefit-card--container h3{
+    width: 220px;
+    height: 20px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 40px;
+}
+
+.money-benefit-card--container p{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.electricity-benefit-card--container span {
+    display: block;
+    width: 25px;
+    height: 30px;
+    background-image: url('./recursos/iconos/LightningChargeFill.svg');
+    margin: 10px;
+}
+
+.electricity-benefit-card--container h3{
+    width: 220px;
+    height: 20px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 40px;
+}
+
+.electricity-benefit-card--container p{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.time-benefit-card--container span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url('./recursos/iconos/AlarmFill.svg');
+    margin: 10px;
+}
+
+.time-benefit-card--container h3{
+    width: 220px;
+    height: 20px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 40px;
+}
+
+.time-benefit-card--container p{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.quality-benefit-card--container span {
+    display: block;
+    width: 25px;
+    height: 30px;
+    background-image: url('./recursos/iconos/AwardFill.svg');
+    margin: 10px;
+}
+
+.quality-benefit-card--container h3{
+    width: 220px;
+    height: 20px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 40px;
+}
+
+.quality-benefit-card--container p{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    position: relative;
+    bottom: 10px;
 }
